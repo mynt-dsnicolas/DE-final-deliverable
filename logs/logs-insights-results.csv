@@ -1,0 +1,27 @@
+@timestamp,@message
+2021-04-27 11:35:16.775,"[2021-04-27 11:35:16,775] {{logging_mixin.py:112}} INFO - [2021-04-27 11:35:16,775] {{local_task_job.py:102}} INFO - Task exited with return code 0"
+2021-04-27 11:35:16.282,"[2021-04-27 11:35:16,282] {{taskinstance.py:1070}} INFO - Marking task as SUCCESS.dag_id=final-deliverable-dag, task_id=check_steps_finished, execution_date=20210426T000000, start_date=20210427T113011, end_date=20210427T113516"
+2021-04-27 11:35:16.213,"[2021-04-27 11:35:16,213] {{base_sensor_operator.py:123}} INFO - Success criteria met. Exiting."
+2021-04-27 11:35:16.149,"[2021-04-27 11:35:16,149] {{emr_base_sensor.py:48}} INFO - Job flow currently COMPLETED"
+2021-04-27 11:35:15.999,"[2021-04-27 11:35:15,999] {{emr_step_sensor.py:53}} INFO - Poking step s-1J4TUUK1M78A2 on cluster j-3FZBSJOF4P1EI"
+2021-04-27 11:34:15.738,"[2021-04-27 11:34:15,738] {{emr_base_sensor.py:48}} INFO - Job flow currently RUNNING"
+2021-04-27 11:34:15.591,"[2021-04-27 11:34:15,591] {{emr_step_sensor.py:53}} INFO - Poking step s-1J4TUUK1M78A2 on cluster j-3FZBSJOF4P1EI"
+2021-04-27 11:33:15.478,"[2021-04-27 11:33:15,478] {{emr_base_sensor.py:48}} INFO - Job flow currently RUNNING"
+2021-04-27 11:33:15.326,"[2021-04-27 11:33:15,326] {{emr_step_sensor.py:53}} INFO - Poking step s-1J4TUUK1M78A2 on cluster j-3FZBSJOF4P1EI"
+2021-04-27 11:32:15.176,"[2021-04-27 11:32:15,176] {{emr_base_sensor.py:48}} INFO - Job flow currently PENDING"
+2021-04-27 11:32:15.045,"[2021-04-27 11:32:15,045] {{emr_step_sensor.py:53}} INFO - Poking step s-1J4TUUK1M78A2 on cluster j-3FZBSJOF4P1EI"
+2021-04-27 11:31:14.890,"[2021-04-27 11:31:14,890] {{emr_base_sensor.py:48}} INFO - Job flow currently PENDING"
+2021-04-27 11:31:14.747,"[2021-04-27 11:31:14,747] {{emr_step_sensor.py:53}} INFO - Poking step s-1J4TUUK1M78A2 on cluster j-3FZBSJOF4P1EI"
+2021-04-27 11:30:20.727,"[2021-04-27 11:30:20,727] {{logging_mixin.py:112}} INFO - [2021-04-27 11:30:20,727] {{local_task_job.py:102}} INFO - Task exited with return code 0"
+2021-04-27 11:30:17.638,"[2021-04-27 11:30:17,638] {{taskinstance.py:1070}} INFO - Marking task as SUCCESS.dag_id=final-deliverable-dag, task_id=transfer_s3_to_redshift, execution_date=20210426T000000, start_date=20210427T113011, end_date=20210427T113017"
+2021-04-27 11:30:14.878,"[2021-04-27 11:30:14,878] {{s3_to_redshift.py:130}} INFO - COPY command complete..."
+2021-04-27 11:30:14.607,"[2021-04-27 11:30:14,607] {{emr_base_sensor.py:48}} INFO - Job flow currently PENDING"
+2021-04-27 11:30:14.494,"[2021-04-27 11:30:14,494] {{emr_step_sensor.py:53}} INFO - Poking step s-1J4TUUK1M78A2 on cluster j-3FZBSJOF4P1EI"
+2021-04-27 11:30:14.287,"[2021-04-27 11:30:14,287] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: final-deliverable-dag.check_steps_finished 2021-04-26T00:00:00+00:00 [running]> ip-10-192-20-244.ap-southeast-1.compute.internal"
+2021-04-27 11:30:14.071,"[2021-04-27 11:30:14,071] {{logging_mixin.py:112}} INFO - [2021-04-27 11:30:14,070] {{dbapi_hook.py:174}} INFO - 
+                    COPY PUBLIC.payment
+                    FROM 's3://final-deliverable-bucket2-dsnicolas/input/payment-2021-04-26.csv'
+                    with credentials
+                    'aws_access_key_id=ASIAUOEYRKCHR45TCXYI;aws_secret_access_key=RClcrKhwxRWfPzfLMFccxZiRIeb0san8UdjkAZmm;token=IQoJb3JpZ2luX2VjEMv//////////wEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgBPROSRW1Z/Gr/iHFQUjjrO2d19of4JZFT5Z4NhTND4kCIQDSzCO6/s9A3xKPUPja7ertN9Om6lpXNLeV8VDj4NJ7aiqoAghEEAAaDDMwNTI2MjU3OTg1NSIMzp15XQGAbvN7kA9oKoUCe6+BUrgJCySmNd6Mx9HiDFLNpmMwpy47AX4EY8fX561cWBwlPy8x5xxZrQfdXBlZvRG0R2NMP33JjeZoKBlt0Vp5CwU+7BI6Bkj3LQ7iK/GguKY4YeWtJcYwEM63X26QY0EdLUGplHyoMhTwMjVOnifOdfa6nu7fgwIpQ1YeNxhNS5MYVTVJxOzS/oaX3+L7+XWHPv8qdohPP/vncwBwosKPNznyaWeHC3909zciJAstJVCq6W1+SXZKHk4kbWBygAdyhmaDT1B8gPKP9ScX+L9mNCO/3fUhCjojJIfevYih4t7iSbDZroTgR18xrKhmlSxgqonppgvWxmtERk6j7lwCNseIMJDkn4QGOq0BRaUxcP82wLqJn7VoDLk5lGP/NOd5j44Zby2aLieth8eBkfXLz7T5Jf8GNuimcB+WYJ7WuO3uKxZ7/T5A/xY9axz5dQeE6/lWhcChJExEIyhgFAIdPmjo52Eb/6gxTu39etV3JHMMn8CmJ3RG1TDtt3gX3Uh7VKghCqcU+NjC+470SritiJZvfvWKHGSzkO/wN6IMHouAqjbHERW88SbdLNmElhUBl14yRJGaxDc='
+                    CSV IGNOREHEADER 1;
+        "

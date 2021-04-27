@@ -1,0 +1,40 @@
+2021-04-27T11:32:42.045Z INFO Ensure step 4 jar file command-runner.jar
+2021-04-27T11:32:42.045Z INFO StepRunner: Created Runner for step 4
+INFO startExec 'hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar s3-dist-cp --src=hdfs:///output-airflow --dest=s3://final-deliverable-bucket2-dsnicolas/'
+INFO Environment:
+  PATH=/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/opt/aws/puppet/bin/
+  SECURITY_PROPERTIES=/emr/instance-controller/lib/security.properties
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=ap-southeast-1
+  LANG=en_US.UTF-8
+  MAIL=/var/spool/mail/hadoop
+  LOGNAME=hadoop
+  PWD=/
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-1J4TUUK1M78A2/tmp
+  _=/etc/alternatives/jre/bin/java
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  SHELL=/bin/bash
+  QTINC=/usr/lib64/qt-3.3/include
+  USER=hadoop
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-29-159
+  QTDIR=/usr/lib64/qt-3.3
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-1J4TUUK1M78A2
+  EMR_STEP_ID=s-1J4TUUK1M78A2
+  QTLIB=/usr/lib64/qt-3.3/lib
+  HOME=/home/hadoop
+  SHLVL=1
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-1J4TUUK1M78A2/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-1J4TUUK1M78A2/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-1J4TUUK1M78A2
+INFO ProcessRunner started child process 20563
+2021-04-27T11:32:42.047Z INFO HadoopJarStepRunner.Runner: startRun() called for s-1J4TUUK1M78A2 Child Pid: 20563
+INFO Synchronously wait child process to complete : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+INFO total process run time: 88 seconds
+2021-04-27T11:34:10.226Z INFO Step created jobs: job_1619520730217_0003
+2021-04-27T11:34:10.226Z INFO Step succeeded with exitCode 0 and took 88 seconds

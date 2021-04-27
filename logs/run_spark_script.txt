@@ -1,0 +1,40 @@
+2021-04-27T11:31:56.858Z INFO Ensure step 3 jar file command-runner.jar
+2021-04-27T11:31:56.862Z INFO StepRunner: Created Runner for step 3
+INFO startExec 'hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar spark-submit hdfs:///input/final_spark_script.py'
+INFO Environment:
+  PATH=/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/opt/aws/puppet/bin/
+  SECURITY_PROPERTIES=/emr/instance-controller/lib/security.properties
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=ap-southeast-1
+  LANG=en_US.UTF-8
+  MAIL=/var/spool/mail/hadoop
+  LOGNAME=hadoop
+  PWD=/
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-283DJNQ7Y6FMO/tmp
+  _=/etc/alternatives/jre/bin/java
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  SHELL=/bin/bash
+  QTINC=/usr/lib64/qt-3.3/include
+  USER=hadoop
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-29-159
+  QTDIR=/usr/lib64/qt-3.3
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-283DJNQ7Y6FMO
+  EMR_STEP_ID=s-283DJNQ7Y6FMO
+  QTLIB=/usr/lib64/qt-3.3/lib
+  HOME=/home/hadoop
+  SHLVL=1
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-283DJNQ7Y6FMO/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-283DJNQ7Y6FMO/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-283DJNQ7Y6FMO
+INFO ProcessRunner started child process 20096
+2021-04-27T11:31:56.866Z INFO HadoopJarStepRunner.Runner: startRun() called for s-283DJNQ7Y6FMO Child Pid: 20096
+INFO Synchronously wait child process to complete : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+INFO total process run time: 40 seconds
+2021-04-27T11:32:37.040Z INFO Step created jobs: 
+2021-04-27T11:32:37.040Z INFO Step succeeded with exitCode 0 and took 40 seconds
